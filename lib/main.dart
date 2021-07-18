@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("STANDARD"),
+        title: Text("STANDARD_ in JUDA"),
       ),
       body: StreamBuilder(
         stream: FirebaseFirestore.instance.collection('test').doc('data').snapshots(),
