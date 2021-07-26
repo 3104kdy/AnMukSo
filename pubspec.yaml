@@ -101,7 +101,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  #assets:
+  assets:
+    - assets/snacks/
     #아래꺼는 이약모약에서 가져온 거라서 수정 필요함!
     #- assets/camera/
     #- assets/icons/
