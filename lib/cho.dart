@@ -1,13 +1,6 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
 
-void main() {
-  runApp(MaterialApp(
-    title: 'Navigation Basics',
-    home: FirstRoute(),
-  ));
-}
-
 class FirstRoute extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -269,6 +262,10 @@ class FirstRoute extends StatelessWidget {
                         child: Text('우리은행 1002-101-21-2229 안전한 먹거리 소비자 연합\n'
                             '    카카오 1242-445-6446 안전한 먹거리 소비자 연합'),
                       ),
+                    ),
+                    Container(
+                      padding: EdgeInsets.fromLTRB(0, 40, 0.0, 0),
+                      color: Colors.white,
                     ),
                   ],
                 )),
